@@ -1,0 +1,58 @@
+html {
+    font-size: 62.5% !important;
+    /* 取默认字体的百分比 */
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 59%;
+    }
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 56%;
+    }
+}
+
+body {
+    overflow-x: hidden;
+    background: #FFF;
+    color: #000;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+a{
+    color: #00A862;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009758;
+    text-decoration: none;
+}
+.clear-padding{
+    padding:0;
+}
+a:hover{
+    color: none;
+}
